@@ -48,10 +48,65 @@
                     <!-- ... -->&nbsp;
                 </div>
             </div>
-
-
-
         </section>
+        <sectio id="signup">
+            <form id="container">
+                <div id="progress-triangle"></div>
+
+                <label for="name">
+                    <div class="holder">
+                        Name
+                        <input type="text" name="name" autocomplete="off" id="name">
+                    </div>
+                </label>
+
+                <label for="email">
+                    <div class="holder">
+                        Email
+                        <input type="email" name="email" autocomplete="off" id="email">
+                    </div>
+                </label>
+
+                <label for="password">
+                    <div class="holder">
+                        Password
+                        <input type="password" name="password" id="password">
+                    </div>
+                </label>
+
+                <label for="select">
+                    <div class="holder">
+                        Country
+                        <select id="select">
+                            <option>
+                                United States
+                            </option>
+                            <option>
+                                Canada
+                            </option>
+                            <option>
+                                Germany
+                            </option>
+                            <option>
+                                Mexico
+                            </option>
+                        </select>
+
+                        <div class="select-cover"></div>
+                        <div id="select-triangle"></div>
+                    </div>
+                </label>
+
+                <label for="submit-input">
+                    <div class="holder" id="submit">
+                        Create account
+                    </div>
+                </label>
+
+                <input type="submit" id="submit-input">
+            </form>
+
+        </sectio>
 
 
     </div>
