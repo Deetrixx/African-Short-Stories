@@ -85,8 +85,12 @@
 
 .title {
     color: #29493A;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 .intro {
     text-align: center;
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
 }
