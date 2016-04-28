@@ -45,7 +45,7 @@
     margin: 0 1.5em;
     padding: 0.75em 0;
     text-align: center;
-    color: #b5b5b5;
+    color: #29493A;
     transition: color 0.3s;
 }
 
@@ -84,9 +84,9 @@
 .container {
     background: #899EDA;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     height: auto;
-    max-height: 30s00px;
+    max-height: 3000px;
     */
 }
 
