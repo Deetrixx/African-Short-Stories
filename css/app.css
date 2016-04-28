@@ -107,7 +107,7 @@
 ****************************************************************/
 
 h1 {
-    color: #fff;
+    color: #29493A;
     text-align: center;
     position: relative;
     top: 60px;
@@ -116,8 +116,10 @@ h1 {
 
 form {
     background: #fff;
+    /*
     background-image: url('http://i.imgur.com/v6xypCo.png');
     background-repeat: repeat-x;
+*/
     max-width: 400px;
     margin: 100px auto 0;
     padding: 4em 4em 2em;
@@ -195,4 +197,9 @@ input[type="submit"] {
     font-size: 1.8em;
     line-height: 1.6em;
     cursor: pointer;
+}
+
+.signup {
+    color: #29493A;
+    font-family: 'Fjalla One', sans-serif;
 }
